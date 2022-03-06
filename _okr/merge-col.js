@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import { Table } from "rsuite";
-import data from "./data/merge.js"
+import data from "./data/merge-col.js"
 
 const {Column, ColumnGroup, Cell, HeaderCell} = Table
 
@@ -25,6 +25,7 @@ const App = () => {
         <HeaderCell>Id</HeaderCell>
         <Cell dataKey="id" />
       </Column>
+      
       <ColumnGroup header="Name">
         <Column width={130} colSpan={2}>
           <HeaderCell>First Name</HeaderCell>
@@ -36,6 +37,8 @@ const App = () => {
           <Cell dataKey="lastName" />
         </Column>
       </ColumnGroup>
+
+     
 
       <Column width={200} colSpan={2}>
         <HeaderCell>Address</HeaderCell>

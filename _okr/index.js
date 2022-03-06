@@ -1,6 +1,11 @@
+import React, { useState } from "react"
+import ReactDOM from "react-dom"
+
 import {Button, TimePicker} from "antd"
 
 import moment from 'moment';
+
+import 'antd/dist/antd.css';
 
 function onChange(time, timeString) {
   console.log(time, timeString);
@@ -18,5 +23,5 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, mountNode);
-
+// ReactDOM.render(<App />, mountNode);
+ReactDOM.render(<App />, document.getElementById('root'));

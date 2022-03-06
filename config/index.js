@@ -1,7 +1,7 @@
 export default {
     // 默认模板位置
-    template: './template/template-cdn-antd.ejs',
-    // template: './template/template.ejs',
+    // template: './template/template-cdn-antd.ejs',
+    template: './template/template.ejs',
 
     // 默认meta位置
     meta: "./template/template.json",

@@ -5,13 +5,12 @@ import ReactDOM from "react-dom"
 import { Table } from 'rsuite';
 // import Table from 'rsuite/Table';
 
-
 // import moment from 'moment';
 
 // import 'antd/dist/antd.css';
 import 'rsuite/styles/index.less'; // or 'rsuite/dist/rsuite.min.css'
 
-import fakeData from "./data.js"
+import fakeData from "./data/simple.js"
 
 console.log(fakeData)
 

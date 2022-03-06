@@ -7,7 +7,7 @@ export default {
     meta: "./template/template.json",
 
     // 路径写法示例
-    entry: './_okr/index.js',
+    entry: './_okr/*.js',
     // entry: './__demo/*.js',
     // entry: './__demo/module/*.{js,tsx}',
 
